@@ -1,65 +1,83 @@
 # Multi-Module-College-Administration-System
-Multi-Module College Administration System
 
-Project Overview
 
-The Multi-Module College Administration System is a Java-based application designed to manage various college activities in one place. It helps simplify student management, faculty management, course registration, examination, results, and attendance tracking.
+COLLEGE ADMINISTRATION SYSTEM
 
-Objectives
+About the Project
 
-- Manage student and faculty information.
-- Maintain course and registration details.
-- Record examination marks and generate results.
-- Track student attendance and attendance percentages.
-- Provide a simple and user-friendly graphical interface.
+The College Administration System is a Java-based desktop application designed to manage and simplify various college administrative activities. It integrates multiple modules into a single application to ensure efficient and organized management of college information.
+
+Modules
+
+1. Student Module
+
+- Add Student
+- Search Student
+- Update Student
+- Delete Student
+
+2. Faculty Module
+
+- Add Faculty
+- Assign Course
+- View Faculty Details
+
+3. Course Module
+
+- Add Course
+- Assign Faculty
+- Register Students
+
+4. Examination Module
+
+- Enter Marks
+- Calculate Results
+- Generate Grades
+
+5. Attendance Module
+
+- Record Attendance
+- Calculate Attendance Percentage
+- Identify Attendance Shortage
 
 Technologies Used
 
-- Programming Language: Java
-- GUI: Java Swing
-- Database: MySQL
-- IDE: Visual Studio Code
-- Version Control: Git and GitHub
+- Java
+- Java Swing
+- MySQL
+- JDBC
+- Git & GitHub
 
-Project Modules
+GUI Components
 
-1. Main Dashboard and Integration
-2. Student Management
-3. Student Update and Delete
-4. Faculty Management
-5. Course Management
-6. Course Registration
-7. Examination Marks
-8. Results and Grades
-9. Attendance Recording
-10. Attendance Percentage and Shortage
-11. Database Connectivity
-12. Testing and Documentation
+The application uses the following Java Swing components and event-handling mechanisms:
 
-Project Structure
+- JFrame and JPanel
+- JMenuBar, JMenu and JMenuItem
+- JTable
+- JTextField
+- JComboBox
+- JRadioButton
+- JCheckBox
+- Layout Managers
+- Action Listeners
+- Mouse Listeners
+- Key Listeners
+- Window Listeners
+- Adapter Classes
 
-Multi-Module-College-Administration-System/
-├── README.md
-└── src/
-    └── collegeadmin/
-        ├── main/
-        ├── student/
-        ├── faculty/
-        ├── course/
-        ├── examination/
-        ├── attendance/
-        └── database/
+Database Connectivity
 
-Team Collaboration
+MySQL is used to store and manage college data. JDBC is used to connect the Java desktop application with the MySQL database.
 
-The project is developed collaboratively using GitHub branches. Each team member works on an assigned module, and the modules are integrated into the main application after testing.
+Project Objective
 
-Current Status
+The main objective of this project is to develop a centralized college administration application that reduces manual work, maintains accurate records, and makes administrative tasks easier.
 
-Project setup and module development are in progress.
+Team Project
 
-Future Enhancements
+This project is collaboratively developed by a team of 12 members. Each member contributes to the development and implementation of assigned modules.
 
-- Improve the user interface.
-- Add database validation and error handling.
-- Generate reports for student results and attendance.
+Conclusion
+
+The College Administration System provides an organized and user-friendly solution for managing student, faculty, course, examination, and attendance information through a single desktop application.
